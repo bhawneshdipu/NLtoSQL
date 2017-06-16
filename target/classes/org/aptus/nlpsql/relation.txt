@@ -1,0 +1,16 @@
+marks student
+roll_no student
+emp_id teacher
+name student
+name teacher
+name subject
+age teacher
+subject_code student
+subject_code teacher
+subject_code subject
+taught_by student
+taught_by teacher
+teacher teacher
+teachers teacher
+faculty teacher
+professor teacher

@@ -1,0 +1,15 @@
+date
+batch
+product
+region
+dealer
+price
+dates
+batches
+products
+regions
+dealers
+prices
+sales
+sale
+name

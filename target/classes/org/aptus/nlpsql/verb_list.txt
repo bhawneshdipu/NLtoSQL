@@ -1,0 +1,13 @@
+between
+less
+than
+max
+greater
+than
+min
+equal
+to
+equals
+to
+count
+is

@@ -1,0 +1,4 @@
+find the list of all the products whose price between 30 to 50
+find the list of all the products whose price equals to 50
+find all products whose region is "IND"
+find sales of product equals "abc def"
