@@ -210,7 +210,9 @@ public class App
         		query+=" FROM table_name WHERE "+lastcol+" "+"equals"+" ";
         	
         }
-        
+        else{
+        	query+=" FROM table_name WHERE "+lastcol+" "+"equals"+" ";
+        }
         
         System.out.println(query);
         for (String a: stringcnst){
