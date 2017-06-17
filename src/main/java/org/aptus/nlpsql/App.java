@@ -75,7 +75,8 @@ public class App
         ArrayList<String> hm=new ArrayList<String>();
         try {
 
-        	BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/stop-words.txt"));
+        	//BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/stop-words.txt"));
+        	BufferedReader br = new BufferedReader(new FileReader("/home/dipu/workspace/nlpsql/src/main/java/org/aptus/nlpsql/stop-words.txt"));
         	
         	String str;
         	Integer i=new Integer(0);
@@ -93,7 +94,9 @@ public class App
         	}
         }
       //Loading Parts of speech-maxent model 
-        InputStream inputStream = new FileInputStream("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/en-pos-maxent.bin"); 
+        //InputStream inputStream = new FileInputStream("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/en-pos-maxent.bin"); 
+        InputStream inputStream = new FileInputStream("/home/dipu/workspace/nlpsql/src/main/java/org/aptus/nlpsql/en-pos-maxent.bin"); 
+        
         POSModel model = new POSModel(inputStream); 
       //Instantiating POSTaggerME class 
         POSTaggerME tagger = new POSTaggerME(model);
@@ -123,7 +126,8 @@ public class App
        ArrayList <String> noun=new ArrayList<String>();
         try {
 
-        	BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/columns.txt"));
+        	//BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/columns.txt"));
+        	BufferedReader br = new BufferedReader(new FileReader("/home/dipu/workspace/nlpsql/src/main/java/org/aptus/nlpsql/columns.txt"));
         	
         	String str;
         	Integer i=new Integer(0);
@@ -138,7 +142,8 @@ public class App
         ArrayList<String> verb=new ArrayList<String>();
         try {
 
-        	BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/verb_list.txt"));
+        	//BufferedReader br = new BufferedReader(new FileReader("/home/aptus-hp/workspace/nlpsql/src/main/java/org/aptus/nlpsql/verb_list.txt"));
+        	BufferedReader br = new BufferedReader(new FileReader("/home/dipu/workspace/nlpsql/src/main/java/org/aptus/nlpsql/verb_list.txt"));
         	
         	String str;
         	Integer i=new Integer(0);
